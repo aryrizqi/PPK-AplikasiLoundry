@@ -1,0 +1,16 @@
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\bin\Debug\AplikasiLoundry.exe.config
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\bin\Debug\AplikasiLoundry.exe
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\bin\Debug\AplikasiLoundry.pdb
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\bin\Debug\MySql.Data.dll
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.FormAdmin.resources
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.FormAmbil.resources
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.FormHistory.resources
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.FormLogin.resources
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.FormOrder.resources
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.FormSettings.resources
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.MenuMaster.resources
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.Properties.Resources.resources
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.csproj.GenerateResource.Cache
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.exe
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.pdb
+E:\Filkom UB\TIF\SEMESTER 5\Pemrograman platform khusus\Tugas 1\AplikasiLoundry\AplikasiLoundry\obj\Debug\AplikasiLoundry.csprojResolveAssemblyReference.cache

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbPaket = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -69,18 +70,17 @@
             this.rbDiantar = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.logout = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.cbPaket = new System.Windows.Forms.ComboBox();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,6 +94,20 @@
             this.groupBox2.TabIndex = 86;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Pilih Paket";
+            // 
+            // cbPaket
+            // 
+            this.cbPaket.FormattingEnabled = true;
+            this.cbPaket.Items.AddRange(new object[] {
+            "Cuci Kering",
+            "Cuci Basah",
+            "Cuci Setrika"});
+            this.cbPaket.Location = new System.Drawing.Point(99, 14);
+            this.cbPaket.Name = "cbPaket";
+            this.cbPaket.Size = new System.Drawing.Size(299, 24);
+            this.cbPaket.TabIndex = 0;
+            this.cbPaket.Text = "Pilih Paket";
+            this.cbPaket.SelectedIndexChanged += new System.EventHandler(this.cbPaket_SelectedIndexChanged);
             // 
             // groupBox1
             // 
@@ -500,7 +514,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.logout);
             this.panel2.Controls.Add(this.label14);
             this.panel2.Controls.Add(this.label16);
             this.panel2.Controls.Add(this.label18);
@@ -510,14 +524,15 @@
             this.panel2.Size = new System.Drawing.Size(710, 89);
             this.panel2.TabIndex = 90;
             // 
-            // pictureBox2
+            // logout
             // 
-            this.pictureBox2.Image = global::AplikasiLoundry.Properties.Resources.rsz_1off;
-            this.pictureBox2.Location = new System.Drawing.Point(634, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(69, 75);
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
+            this.logout.Image = global::AplikasiLoundry.Properties.Resources.rsz_1off;
+            this.logout.Location = new System.Drawing.Point(634, 3);
+            this.logout.Name = "logout";
+            this.logout.Size = new System.Drawing.Size(69, 75);
+            this.logout.TabIndex = 4;
+            this.logout.TabStop = false;
+            this.logout.Click += new System.EventHandler(this.logout_Click);
             // 
             // label14
             // 
@@ -560,20 +575,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // cbPaket
-            // 
-            this.cbPaket.FormattingEnabled = true;
-            this.cbPaket.Items.AddRange(new object[] {
-            "Cuci Kering",
-            "Cuci Basah",
-            "Cuci Setrika"});
-            this.cbPaket.Location = new System.Drawing.Point(99, 14);
-            this.cbPaket.Name = "cbPaket";
-            this.cbPaket.Size = new System.Drawing.Size(299, 24);
-            this.cbPaket.TabIndex = 0;
-            this.cbPaket.Text = "Pilih Paket";
-            this.cbPaket.SelectedIndexChanged += new System.EventHandler(this.cbPaket_SelectedIndexChanged);
-            // 
             // FormOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -597,7 +598,7 @@
             this.groupBox4.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -644,7 +645,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox tbDibayar;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox logout;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label18;

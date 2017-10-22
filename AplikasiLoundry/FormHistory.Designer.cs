@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.tbNoHp = new System.Windows.Forms.TextBox();
             this.btnTampil = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -50,19 +52,17 @@
             this.label14 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.logout = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.tbNoHp = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCari)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,6 +95,23 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Menu History";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label5.Location = new System.Drawing.Point(9, 124);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 18);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "No HP :";
+            // 
+            // tbNoHp
+            // 
+            this.tbNoHp.Location = new System.Drawing.Point(121, 121);
+            this.tbNoHp.Name = "tbNoHp";
+            this.tbNoHp.Size = new System.Drawing.Size(179, 23);
+            this.tbNoHp.TabIndex = 28;
             // 
             // btnTampil
             // 
@@ -299,7 +316,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.logout);
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label8);
             this.panel2.Controls.Add(this.label9);
@@ -309,14 +326,15 @@
             this.panel2.Size = new System.Drawing.Size(710, 85);
             this.panel2.TabIndex = 7;
             // 
-            // pictureBox2
+            // logout
             // 
-            this.pictureBox2.Image = global::AplikasiLoundry.Properties.Resources.rsz_1off;
-            this.pictureBox2.Location = new System.Drawing.Point(627, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(75, 75);
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
+            this.logout.Image = global::AplikasiLoundry.Properties.Resources.rsz_1off;
+            this.logout.Location = new System.Drawing.Point(627, 3);
+            this.logout.Name = "logout";
+            this.logout.Size = new System.Drawing.Size(75, 75);
+            this.logout.TabIndex = 4;
+            this.logout.TabStop = false;
+            this.logout.Click += new System.EventHandler(this.logout_Click);
             // 
             // label7
             // 
@@ -359,23 +377,6 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Location = new System.Drawing.Point(9, 124);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 18);
-            this.label5.TabIndex = 29;
-            this.label5.Text = "No HP :";
-            // 
-            // tbNoHp
-            // 
-            this.tbNoHp.Location = new System.Drawing.Point(121, 121);
-            this.tbNoHp.Name = "tbNoHp";
-            this.tbNoHp.Size = new System.Drawing.Size(179, 23);
-            this.tbNoHp.TabIndex = 28;
-            // 
             // FormHistory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -392,7 +393,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
@@ -418,7 +419,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox logout;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;

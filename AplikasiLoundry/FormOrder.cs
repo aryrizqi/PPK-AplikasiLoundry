@@ -151,5 +151,13 @@ namespace AplikasiLoundry
             }
 
         }
-     }
+
+        private void logout_Click(object sender, EventArgs e)
+        {
+            MenuMaster parentForm = (MenuMaster)this.MdiParent;
+            parentForm.Visible = false;
+            FormLogin login = new FormLogin();
+            login.Show();
+        }
+    }
  }

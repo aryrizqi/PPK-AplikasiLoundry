@@ -35,5 +35,10 @@ namespace AplikasiLoundry
                 MessageBox.Show("Invalid Username Or Password");
             }
         }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

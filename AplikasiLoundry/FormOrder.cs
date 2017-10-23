@@ -120,10 +120,10 @@ namespace AplikasiLoundry
         {
             try
             {
-                int hrg = Int32.Parse(tbHarga.Text);
-                int biaya = Int32.Parse(tbBiaya.Text);
+                int hrg = Convert.ToInt32(tbHarga.Text);
+                int biaya = Convert.ToInt32(tbBiaya.Text);
 
-                int berat = Int32.Parse(tbBerat.Text);
+                int berat = Convert.ToInt32(tbBerat.Text);
                 int total = (berat * hrg) + biaya;
                 tbTotal.Text = total.ToString();
             } catch(Exception ex)
@@ -134,12 +134,12 @@ namespace AplikasiLoundry
 
         private void tbDibayar_TextChanged(object sender, EventArgs e)
         {
-            int total = Int32.Parse(tbTotal.Text);
             try
             {
-                if (Int32.Parse(tbDibayar.Text) > 0 || !string.IsNullOrEmpty(tbDibayar.Text))
+                int total = Convert.ToInt32(tbTotal.Text);
+                if (Convert.ToInt32(tbDibayar.Text) > 0 || !string.IsNullOrEmpty(tbDibayar.Text))
                 {
-                    int bayar = Int32.Parse(tbDibayar.Text);
+                    int bayar = Convert.ToInt32(tbDibayar.Text);
                     int kembali = bayar - total;
 
                     tbKembali.Text = kembali.ToString();
